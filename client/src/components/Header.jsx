@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SignIn from "../pages/SignIn";
+import SignUp from "../pages/SignUp";
 
 import About from "../pages/About";
 import Home from "../pages/Home";
@@ -26,7 +27,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="/sign-in">
+            <Link to="/sign-up">
               <SignIn />
             </Link>
           </li>
